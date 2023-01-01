@@ -1,0 +1,20 @@
+y = input('yo waasa bro i can cout the amout of O and X you have in your statment and tell you if they are equal ur ready yes or no?')
+if y != 'yes':
+    quit()
+
+statment= input('ok type you statment here:')
+
+x = statment.count('x')
+X = statment.count('X')
+
+o = statment.count('o')
+O = statment.count('O')
+
+finnal_x = x + X
+finnal_o = o + O
+
+if finnal_o == finnal_x:
+    print ('there is the same amount of x as o')
+
+else:
+    print('there is a diffrent amount of x and o')
